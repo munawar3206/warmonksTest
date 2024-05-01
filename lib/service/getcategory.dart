@@ -5,7 +5,7 @@ class GetCategoryServices {
   final Dio _dio = Dio();
 
   Future<List<Datum>> fetchcategoryServices() async {
-    final url = 'https://suncity.warmonks.com/api/category';
+    const url = 'https://suncity.warmonks.com/api/category';
 
     try {
       final response = await _dio.get(

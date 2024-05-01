@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:productapp/controller/category_provider.dart';
-import 'package:productapp/homepage.dart';
+import 'package:productapp/controller/home_provider.dart';
+import 'package:productapp/view/home/homepage.dart';
 import 'package:provider/provider.dart';
 
 void main() {
